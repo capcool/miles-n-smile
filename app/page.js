@@ -1,11 +1,13 @@
-import Image from 'next/image'
-
-export default function Home() {
+import SideBar from "./components/sidebar";
+import Home from "./components/home";
+export default function Main() {
   return (
     <>
-    <div className='text-red-600'>
-      hello, we are coming soon !!
+    <div className="flex">
+    <SideBar/>
+    <Home/>
     </div>
+  
     </>
   )
 }
