@@ -24,7 +24,7 @@ export default function SideBar() {
                     cursor-pointer float-left mr-2 min-w-[30px] duration-300  ${open && 'rotate-[360deg]'}`} />
                     <h6 className={` text-white origin-left
                     ${!open && 'scale-0'}`}>
-                        Miles-N-Slimes
+                        Miles-N-Smiles
                     </h6>
                 </div>
                 <ul className='pt-2'>
