@@ -17,8 +17,8 @@ export default function SideBar() {
                 onClick={() => setOpen(!open)} 
                 />
                 <div className='inline-flex'>
-                    <AiFillEnvironment className='bg-amber-300 text-4xl rounded 
-                    cursor-pointer float-left mr-2'/>
+                    <AiFillEnvironment className='bg-amber-300 text-3xl rounded block
+                    cursor-pointer float-left mr-2 min-w-[30px]' />
                     <h6 className={` text-white origin-left
                     ${!open && 'scale-0'}`}>
                         Miles-N-Slimes
